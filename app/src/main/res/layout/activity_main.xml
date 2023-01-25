@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="121dp"
+        android:backgroundTint="#EF0A0A"
+        android:background="@color/purple_500">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/fragment1btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/fragmnet_1" />
+
+    <Button
+        android:id="@+id/fragmnet2btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="39dp"
+        android:layout_toEndOf="@+id/fragment2btn"
+        android:text="@string/fragment_2"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>
